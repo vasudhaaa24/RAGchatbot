@@ -1,0 +1,37 @@
+{
+  "name": "jiochatbot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "ts-node ./scripts/loadDb.ts",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@datastax/astra-db-ts": "^1.1.0",
+    "@huggingface/inference": "^2.8.1",
+    "@qdrant/js-client-rest": "^1.13.0",
+    "@xenova/transformers": "^2.17.2",
+    "ai": "^4.1.50",
+    "chromadb": "^1.10.4",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.1.36",
+    "next": "14.2.3",
+    "openai": "^4.41.1",
+    "puppeteer": "^19.11.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.0",
+    "typescript": "^5"
+  }
+}
